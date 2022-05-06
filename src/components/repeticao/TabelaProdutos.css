@@ -1,0 +1,17 @@
+.table{
+    width: 100%;
+}
+
+.th{
+    background-color: #884EA0;
+    color: #d5b7e2;
+    font-weight: 100;
+}
+
+.Par{
+    background-color: #ddd;
+}
+
+.Impar{
+    background-color: #ccc;
+}

@@ -1,0 +1,8 @@
+.input {
+    color: brown;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+}
