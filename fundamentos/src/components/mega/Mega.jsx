@@ -12,7 +12,9 @@ const Mega = (props) => {
     const [numeros, setNumeros] = useState(numerosIniciais)
 
     function gerarNumeros(qtde) {
+
         let array = [];
+        
         for (let i = 0; i < qtde; i++) {
            array.push(Math.floor(Math.random() * (60 - 0 + 1)) + 0);
         }
