@@ -11,6 +11,12 @@ const Menu = props => (
                     <Link to="/">Início</Link>
                 </li>
                 <li>
+                    <Link to="/classes">Classes()</Link>
+                </li>
+                <li>
+                    <Link to="/Pai_Filhos">Componentes Pai/Filho()</Link>
+                </li>
+                <li>
                     <Link to="/useState">useState()</Link>
                 </li>
                 <li>

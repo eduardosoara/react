@@ -1,7 +1,7 @@
 import React from 'react'
 import PageTitle from '../../components/layout/PageTitle'
 
-const Home = props => (
+const NotFound = props => (
     <div className="Home">
         <PageTitle error
             title="404"
@@ -9,4 +9,4 @@ const Home = props => (
     </div>
 )
 
-export default Home
+export default NotFound

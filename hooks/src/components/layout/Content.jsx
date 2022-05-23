@@ -12,12 +12,25 @@ import UseMemo from '../../views/examples/UseMemo'
 import UseContext from '../../views/examples/UseContext'
 import UseReducer from '../../views/examples/UseReducer'
 import UseCustom from '../../views/examples/UseCustom'
+import Classes from '../../views/examples/Classes'
+import Pai_Filhos from '../../views/examples/Pai_Filhos'
+import Filho from '../../views/examples/Filho'
 
 const Content = props => (
     <main className="Content">
         <Switch>
             <Route exact path="/">
                 <Home />
+            </Route>
+            <Route path="/classes">
+                <Classes tipo="Bom dia" nome="João"/>
+            </Route>
+            <Route path="/Pai_Filhos">
+                <Pai_Filhos nome="Paulo" sobrenome="Silva">
+                    <Filho nome="Pedro" sobrenome="Silva"/>
+                    <Filho nome="Paulo" sobrenome="Silva"/>
+                    <Filho nome="Carla" sobrenome="Silva"/>
+                </Pai_Filhos>
             </Route>
             <Route path="/useState">
                 <UseState />
